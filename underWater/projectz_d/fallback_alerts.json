@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-04-19T08:01:09Z",
+    "source_mode": "internal_api_live",
+    "count": 14
+  },
+  "raw": {
+    "alerts": [
+      {
+        "identifier": "1776584505824011",
+        "disaster_type": "Avalanche with low danger level is likely to occur above 3000 metres over Baramulla in next 24 hours. Stay Updated. Stay Safe. JKUTDMA.",
+        "severity": "WATCH",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Baramulla",
+        "warning_message": "Avalanche with low danger level is likely to occur above 3000 metres over Baramulla in next 24 hours. Stay Updated. Stay Safe. JKUTDMA.",
+        "effective_start_time": "2026-04-19T07:49:38Z",
+        "effective_end_time": "2026-04-20T07:49:38Z",
+        "alert_source": "DGRE Chandigarh",
+        "severity_color": "yellow",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776584511123011",
+        "disaster_type": "Avalanche with medium danger level is likely to occur above 2800 metres over Kupwara in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Kupwara",
+        "warning_message": "Avalanche with medium danger level is likely to occur above 2800 metres over Kupwara in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.",
+        "effective_start_time": "2026-04-19T07:47:49Z",
+        "effective_end_time": "2026-04-20T07:47:49Z",
+        "alert_source": "DGRE Chandigarh",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776584516358011",
+        "disaster_type": "Avalanche with medium danger level is likely to occur above 2400 metres over Ganderbal in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Ganderbal",
+        "warning_message": "Avalanche with medium danger level is likely to occur above 2400 metres over Ganderbal in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.",
+        "effective_start_time": "2026-04-19T07:46:18Z",
+        "effective_end_time": "2026-04-20T07:46:18Z",
+        "alert_source": "DGRE Chandigarh",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776584539896037",
+        "disaster_type": "Avalanche with medium danger level is likely to occur above 3200 metres over Gangtok, Pakyong in next 24 hours.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Gangtok, Pakyong",
+        "warning_message": "Avalanche with medium danger level is likely to occur above 3200 metres over Gangtok, Pakyong in next 24 hours.",
+        "effective_start_time": "2026-04-19T07:42:27Z",
+        "effective_end_time": "2026-04-20T07:42:27Z",
+        "alert_source": "DGRE Chandigarh",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776584533076040",
+        "disaster_type": "Avalanche with low danger level is likely to occur above 3100 metres over Kargil in next 24 hours.",
+        "severity": "WATCH",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Kargil",
+        "warning_message": "Avalanche with low danger level is likely to occur above 3100 metres over Kargil in next 24 hours.",
+        "effective_start_time": "2026-04-19T07:42:20Z",
+        "effective_end_time": "2026-04-20T07:42:20Z",
+        "alert_source": "DGRE Chandigarh",
+        "severity_color": "yellow",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776583854776028",
+        "disaster_type": "Heat Wave is likely to occur at isolated places over Alwar, Bharatpur, Deeg, Dholpur, Jhunjhunu, Khairthal-Tijara, Kotputli-Behror in next 24 hours.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Alwar, Bharatpur, Deeg, Dholpur, Jhunjhunu, Khairthal-Tijara, Kotputli-Behror",
+        "warning_message": "Heat Wave is likely to occur at isolated places over Alwar, Bharatpur, Deeg, Dholpur, Jhunjhunu, Khairthal-Tijara, Kotputli-Behror in next 24 hours.",
+        "effective_start_time": "2026-04-19T07:37:36Z",
+        "effective_end_time": "2026-04-20T07:37:36Z",
+        "alert_source": "IMD Jaipur",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776584103663015",
+        "disaster_type": "Moderate Thunderstorms with surface wind Speed Reaching 40-50 Kmph accompanied with Light to Moderate Rain  is very likely to occur at a few places over Khowai Districts in next 30 mints to 1  hour.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Khowai Districts",
+        "warning_message": "Moderate Thunderstorms with surface wind Speed Reaching 40-50 Kmph accompanied with Light to Moderate Rain  is very likely to occur at a few places over Khowai Districts in next 30 mints to 1  hour.",
+        "effective_start_time": "2026-04-19T07:36:46Z",
+        "effective_end_time": "2026-04-19T08:06:46Z",
+        "alert_source": "IMD Agartala",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776583624727028",
+        "disaster_type": "Thunderstorm/Lightning is likely to occur at isolated places over Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi in next 24 hours.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi",
+        "warning_message": "Thunderstorm/Lightning is likely to occur at isolated places over Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi in next 24 hours.",
+        "effective_start_time": "2026-04-19T07:34:44Z",
+        "effective_end_time": "2026-04-20T07:34:44Z",
+        "alert_source": "IMD Jaipur",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1749186591697016",
+        "disaster_type": "अगले 3 घंटों में जहानाबाद, मुजफ्फरपुर, वैशाली, सुपौल में कुछ स्थानों  पर बिजली चमकने/सतही हवा के झोंके (40-50 किमी प्रति घंटे) के साथ मध्यम गरज के साथ हल्की से मध्यम बारिश होने की संभावना है।",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "India",
+        "warning_message": "अगले 3 घंटों में जहानाबाद, मुजफ्फरपुर, वैशाली, सुपौल में कुछ स्थानों  पर बिजली चमकने/सतही हवा के झोंके (40-50 किमी प्रति घंटे) के साथ मध्यम गरज के साथ हल्की से मध्यम बारिश होने की संभावना है।",
+        "effective_start_time": "2026-04-19T07:24:51Z",
+        "effective_end_time": "2026-04-19T10:24:51Z",
+        "alert_source": "IMD Patna",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776582669448015",
+        "disaster_type": "Light to Moderate Thunderstorms with lightning accompanied with light to Moderate rain and gusty wind speed reaching 40-50 kmph is very likely to continue/occur at a few places over Northern part of Dhalai, Unakoti in next 1-2 hours.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Northern part of Dhalai, Unakoti",
+        "warning_message": "Light to Moderate Thunderstorms with lightning accompanied with light to Moderate rain and gusty wind speed reaching 40-50 kmph is very likely to continue/occur at a few places over Northern part of Dhalai, Unakoti in next 1-2 hours.",
+        "effective_start_time": "2026-04-19T07:14:26Z",
+        "effective_end_time": "2026-04-19T10:14:26Z",
+        "alert_source": "IMD Agartala",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776579360559021",
+        "disaster_type": "अगले 24 घंटों में अलीराजपुर, छतरपुर, डिंडोरी, गुना, झाबुआ, मंडला, निवाड़ी, रतलाम, सतना, टीकमगढ़, उमरिया में अलग-अलग स्थानों पर लू चलने की संभावना है।",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "India",
+        "warning_message": "अगले 24 घंटों में अलीराजपुर, छतरपुर, डिंडोरी, गुना, झाबुआ, मंडला, निवाड़ी, रतलाम, सतना, टीकमगढ़, उमरिया में अलग-अलग स्थानों पर लू चलने की संभावना है।",
+        "effective_start_time": "2026-04-19T06:24:35Z",
+        "effective_end_time": "2026-04-19T09:24:35Z",
+        "alert_source": "IMD Bhopal",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776573990259009",
+        "disaster_type": "Thunderstorm accompanied with Lightning and surface wind(40-50 kmph) is very likely to occur at isolated places over Bageshwar, Chamoli, Pithoragarh, Rudraprayag, and Uttarkashi in next 24 hours.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Bageshwar, Chamoli, Pithoragarh, Rudraprayag, and Uttarkashi",
+        "warning_message": "Thunderstorm accompanied with Lightning and surface wind(40-50 kmph) is very likely to occur at isolated places over Bageshwar, Chamoli, Pithoragarh, Rudraprayag, and Uttarkashi in next 24 hours.",
+        "effective_start_time": "2026-04-19T05:08:11Z",
+        "effective_end_time": "2026-04-20T05:08:11Z",
+        "alert_source": "IMD Dehradun",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776333806452030",
+        "disaster_type": "Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "forest area near you",
+        "warning_message": "Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.",
+        "effective_start_time": "2026-04-18T11:51:17Z",
+        "effective_end_time": "2026-04-21T11:51:17Z",
+        "alert_source": "FSI",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      },
+      {
+        "identifier": "1776504985785030",
+        "disaster_type": "Thundering with Lightning, Gusty winds(30-40 Kmph) is very likely to occur  at isolated places over Bhadradri Kothagudem, Jayashankar Bhupalapally, Kamareddy, Medak, Mulugu, Sangareddy, Vikarabad in next 24 hours - By Telangana Integrated Command and Control Centre.",
+        "severity": "WARNING",
+        "urgency": "Expected",
+        "certainty": "Likely",
+        "area_description": "Bhadradri Kothagudem, Jayashankar Bhupalapally, Kamareddy, Medak, Mulugu, Sangareddy, Vikarabad",
+        "warning_message": "Thundering with Lightning, Gusty winds(30-40 Kmph) is very likely to occur  at isolated places over Bhadradri Kothagudem, Jayashankar Bhupalapally, Kamareddy, Medak, Mulugu, Sangareddy, Vikarabad in next 24 hours - By Telangana Integrated Command and Control Centre.",
+        "effective_start_time": "2026-04-18T11:22:48Z",
+        "effective_end_time": "2026-04-19T11:22:48Z",
+        "alert_source": "IMD Hyderabad",
+        "severity_color": "orange",
+        "centroid": "",
+        "source_section": "internal_api_live"
+      }
+    ],
+    "nowcast": {
+      "nowcastDetails": []
+    },
+    "earthquakes": {
+      "alerts": []
+    },
+    "location_alerts": {
+      "alerts": []
+    },
+    "address_alerts": {
+      "alerts": []
+    }
+  }
+}

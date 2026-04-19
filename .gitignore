@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pt
+*.sqlite3
+*.mp4
+*.zip
+database.db*

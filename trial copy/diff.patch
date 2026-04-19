@@ -1,0 +1,376 @@
+diff --git a/index.html b/index.html
+index 9f72911..8aa1c66 100644
+--- a/index.html
++++ b/index.html
+@@ -85,19 +85,14 @@
+                         </div>
+                         <button class="location-btn">
+                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+-                            <span class="lm-only">Use My Current Location</span>
+-                            <span class="dm-only">Set to My Current Location</span>
++                            <span>Set to My Current Location</span>
+                         </button>
+                         <button class="icon-btn layers-btn">
+                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                         </button>
+                     </div>
+ 
+-                    <div class="map-controls-row lm-only">
+-                        <div class="map-title-light">
+-                            <svg viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+-                            India Risk Map
+-                        </div>
++                    
+                         <div class="map-legend">
+                             <span class="dot severe"></span> Severe
+                             <span class="dot moderate"></span> Moderate
+@@ -107,55 +102,51 @@
+                             <button>-</button>
+                         </div>
+                     </div>
+-                    <div class="dm-only dm-map-controls">
+-                        <div class="zoom-btns dm-zoom">
+-                            <button class="zoom-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 5v14M5 12h14"/></button>
+-                            <button class="zoom-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/></button>
++                    <div class="dm-map-controls">
++                        <button class="dm-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></button>
++                        <div class="dm-zoom">
++                            <button class="zoom-plus">+</button>
++                            <button class="zoom-minus">-</button>
+                         </div>
+                     </div>
+                     
+                     <div class="map-view">
+                         <img src="india.svg" alt="India Map" class="india-map-img">
+                         
+-                        <!-- Markers (Simulated based on image) -->
+-                        <div class="map-marker severe-marker" style="top: 30%; right: 28%;">
+-                            <div class="pin-icon"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='white' stroke='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z'/%3E%3Cpolyline points='10 15 13 9 10 8' stroke='black' stroke-width='2' fill='none'/%3E%3C/svg%3E"></div>
+-                            <div class="marker-bg"></div>
+-                            <div class="marker-tooltip"><strong>Earthquake</strong><p>Sikkim - 4.8</p></div>
++                        <!-- Static Markers (Mapped exactly to standard mock layout coords) -->
++                        <div class="alert-dot" style="top: 35%; left: 60%;">
++                            <svg viewBox="0 0 24 24" fill="#f97316" stroke="none"><path d="M12 2c0 0-5 6.5-5 11a5 5 0 0 0 10 0c0-4.5-5-11-5-11z"/></svg>
++                        </div>
++                        <div class="alert-dot" style="top: 45%; left: 74%;">
++                            <svg viewBox="0 0 24 24" fill="#fb923c" stroke="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
++                            <div class="alert-label right">Earthquake<br>in Sikkim</div>
++                        </div>
++                        <div class="alert-dot" style="top: 50%; left: 68%;">
++                            <svg viewBox="0 0 24 24" fill="#f97316" stroke="none"><path d="M12 2c0 0-5 6.5-5 11a5 5 0 0 0 10 0c0-4.5-5-11-5-11z"/></svg>
+                         </div>
+-                        <div class="map-marker moderate-marker" style="top: 45%; right: 18%;">
+-                            <div class="pin-icon"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='white' stroke='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z'/%3E%3Cpath d='M6 13h12' stroke='black' stroke-width='2'/%3E%3C/svg%3E"></div>
+-                            <div class="marker-bg"></div>
+-                            <div class="marker-tooltip"><strong>Flood</strong><p>Assam - High</p></div>
++                        <div class="alert-dot" style="top: 54%; left: 81%;">
++                            <svg viewBox="0 0 24 24" fill="#fb923c" stroke="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
++                            <div class="alert-label right">Earthquake<br>in Northeast</div>
+                         </div>
+-                        <div class="map-marker severe-marker" style="top: 55%; right: 35%;">
+-                            <div class="pin-icon"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='white' stroke='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z'/%3E%3Cpolyline points='10 15 13 9 10 8' stroke='black' stroke-width='2' fill='none'/%3E%3C/svg%3E"></div>
+-                            <div class="marker-bg"></div>
+-                            <div class="marker-tooltip"><strong>Earthquake</strong><p>Bihar - 5.2</p></div>
++                        <div class="alert-dot" style="top: 61%; left: 63%;">
++                            <svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-9-9c2.5 0 4.9 1 6.7 2.7L21 8"/><path d="M21 3v5h-5"/></svg>
++                            <div class="alert-label left">Cyclone</div>
+                         </div>
+-                        <div class="map-marker moderate-marker" style="bottom: 25%; right: 45%;">
+-                            <div class="pin-icon"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='white' stroke='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z'/%3E%3Cpath d='M6 13h12' stroke='black' stroke-width='2'/%3E%3C/svg%3E"></div>
+-                            <div class="marker-bg"></div>
+-                            <div class="marker-tooltip"><strong>Heavy Rain</strong><p>Kerala</p></div>
++                        <div class="alert-dot" style="top: 64%; left: 54%;">
++                            <svg viewBox="0 0 24 24" fill="#ef4444" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                         </div>
+-                        <div class="map-marker info-marker" style="bottom: 12%; right: 48%;">
+-                            <div class="pin-icon"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='white' stroke='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z'/%3E%3Cpath d='M6 13h12' stroke='black' stroke-width='2'/%3E%3C/svg%3E"></div>
+-                            <div class="marker-bg"></div>
+-                            <div class="marker-tooltip"><strong>Heavy Rain</strong><p>Kerala</p></div>
++                        <div class="alert-dot" style="top: 73%; left: 47%;">
++                            <svg viewBox="0 0 24 24" fill="#fb923c" stroke="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
++                            <div class="alert-label right">Earthquake<br>in Northeast</div>
++                        </div>
++                        <div class="alert-dot" style="top: 81%; left: 39%;">
++                            <svg viewBox="0 0 24 24" fill="#3b82f6" stroke="none"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
++                            <div class="alert-label bottom">Flood<br>in Kerala</div>
+                         </div>
+                     </div>
+                 </div>
+ 
+-                <!-- Weather Bar (Light mode) -->
+-                <div class="weather-bar lm-only">
+-                    <div class="wb-inner">
+-                        <div class="weather-item main-temp">
+-                            <span class="weather-icon">⛅</span>
+-                            <div>
+-                                <div class="w-val">29°C</div>
+-                                <div class="w-sub">Partly Cloudy</div>
+-                            </div>
+-                        </div>
++                
+                         <div class="weather-item">
+                             <div class="w-label">Humidity</div>
+                             <div class="w-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg> 65%</div>
+@@ -190,31 +181,37 @@
+                               <svg class="more-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+                           </div>
+                           <div class="health-content">
+-                              <div class="health-circle">
++                              <div class="radial-chart">
+                                   <svg viewBox="0 0 36 36" class="circular-chart red">
++                                    <defs>
++                                      <linearGradient id="gradientDM" x1="0%" y1="0%" x2="0%" y2="100%">
++                                        <stop offset="0%" stop-color="#ef4444" />
++                                        <stop offset="100%" stop-color="#991b1b" />
++                                      </linearGradient>
++                                    </defs>
+                                     <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                     <path class="circle" stroke-dasharray="89, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
++                                    <text x="18" y="20.35" class="percentage">89%</text>
+                                   </svg>
+-                                  <div class="health-val">89%</div>
+                               </div>
+                               <div class="health-stats">
+-                                  <div class="h-stat-item">
+-                                      <div class="h-icon c-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+-                                      <div class="h-texts">
++                                  <div class="h-stat">
++                                      <div class="h-stat-top red-stat">
++                                          <div class="h-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                                           <span>Alert Latency</span>
+                                           <strong>(1.4s)</strong>
+                                       </div>
+                                   </div>
+-                                  <div class="h-stat-item">
+-                                      <div class="h-icon c-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></div>
+-                                      <div class="h-texts">
++                                  <div class="h-stat">
++                                      <div class="h-stat-top blue-stat">
++                                          <div class="h-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></div>
+                                           <span>Model Accuracy</span>
+                                           <strong>(94.2%)</strong>
+                                       </div>
+                                   </div>
+-                                  <div class="h-stat-item">
+-                                      <div class="h-icon c-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+-                                      <div class="h-texts">
++                                  <div class="h-stat">
++                                      <div class="h-stat-top green-stat">
++                                          <div class="h-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+                                           <span>Resource Sync</span>
+                                           <strong>(91%)</strong>
+                                       </div>
+@@ -226,41 +223,41 @@
+ 
+ <div class="panel card upcoming-card">
+                           <div class="card-header">
+-                              <h3 class="lm-only">REGIONAL UPCOMING ALERTS</h3>
+-                              <h3 class="dm-only">REGIONAL UPCOMING ALERT SUMMARY</h3>
++                              
++                              <h3 class="">REGIONAL UPCOMING ALERT SUMMARY</h3>
+                               <svg class="more-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+                           </div>
+                           <div class="alert-list">
+                               <div class="alert-item">
+-                                  <div class="al-icon al-red lm-only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+-                                  <div class="dm-only dm-dot" style="width:4px; height:4px; border-radius:50%; background:#ef4444; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
+-                                  <div class="al-text">Landslide risk high after rain<span class="dm-only" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span><br class="lm-only"><span class="lm-only">Sikkim - next 6 hrs</span></div>
+-                                  <div class="al-badge box-severe lm-only">High</div>
+-                                  <div class="dm-only dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
++                                  
++                                  <div class=" dm-dot" style="width:4px; height:4px; border-radius:50%; background:#ef4444; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
++                                  <div class="al-text">Landslide risk high after rain<span class="" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span></div>
++                                  
++                                  <div class=" dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
+                               </div>
+                               <div class="alert-item">
+-                                  <div class="al-icon al-orange lm-only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+-                                  <div class="dm-only dm-dot" style="width:4px; height:4px; border-radius:50%; background:#f59e0b; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
+-                                  <div class="al-text">River surge anticipated<span class="dm-only" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span><br class="lm-only"><span class="lm-only">Brahmaputra - 12 hrs</span></div>
+-                                  <div class="al-badge box-moderate lm-only">Moderate</div>
+-                                  <div class="dm-only dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
++                                  
++                                  <div class=" dm-dot" style="width:4px; height:4px; border-radius:50%; background:#f59e0b; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
++                                  <div class="al-text">River surge anticipated<span class="" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span></div>
++                                  
++                                  <div class=" dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
+                               </div>
+                               <div class="alert-item">
+-                                  <div class="al-icon al-orange lm-only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+-                                  <div class="dm-only dm-dot" style="width:4px; height:4px; border-radius:50%; background:#f59e0b; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
+-                                  <div class="al-text">River surge anticipated<span class="dm-only" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span><br class="lm-only"><span class="lm-only">Mahanadi - 16 hrs</span></div>
+-                                  <div class="al-badge box-moderate lm-only">Moderate</div>
+-                                  <div class="dm-only dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
++                                  
++                                  <div class=" dm-dot" style="width:4px; height:4px; border-radius:50%; background:#f59e0b; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
++                                  <div class="al-text">River surge anticipated<span class="" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span></div>
++                                  
++                                  <div class=" dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
+                               </div>
+                               <div class="alert-item">
+-                                  <div class="al-icon al-red lm-only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+-                                  <div class="dm-only dm-dot" style="width:4px; height:4px; border-radius:50%; background:#ef4444; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
+-                                  <div class="al-text"><span class="lm-only">Earthquake aftershock zone</span><span class="dm-only">Landslide risk high after rain</span><span class="dm-only" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span><br class="lm-only"><span class="lm-only">Bihar Region - Active</span></div>
+-                                  <div class="al-badge box-severe lm-only">High</div>
+-                                  <div class="dm-only dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
++                                  
++                                  <div class=" dm-dot" style="width:4px; height:4px; border-radius:50%; background:#ef4444; margin-right:8px; display:inline-block; flex-shrink:0;"></div>
++                                  <div class="al-text"><span class="">Landslide risk high after rain</span><span class="" style="color:#64748b;font-weight:400;font-size:10px;"> [Region]</span></div>
++                                  
++                                  <div class=" dm-warn" style="margin-left:auto;"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
+                               </div>
+                           </div>
+-                          <a href="alerts.html" class="view-all-link lm-only">View All Alerts &rarr;</a>
++                          
+                       </div>
+     </div>
+     <div class="dash-col-right">
+@@ -271,40 +268,40 @@
+                               <h3>ACTIVE THREAT MATRIX</h3>
+                               <svg class="more-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+                           </div>
+-                          <div class="matrix-grid">
+-                              <div class="matrix-row matrix-header">
++                          <div class="threat-table">
++                              <div class="t-row t-header">
+                                   <div></div>
+                                   <div>Flood</div>
+                                   <div>Earthquake</div>
+                                   <div>Wildfire</div>
+                                   <div>Cyclone</div>
+                               </div>
+-                              <div class="matrix-row matrix-severe">
+-                                  <div class="m-label">Severe</div>
+-                                  <div>2<br><span>Severe</span></div>
+-                                  <div>3<br><span>Severe</span></div>
+-                                  <div>5<br><span>Severe</span></div>
+-                                  <div>8<br><span>Severe</span></div>
++                              <div class="t-row box-severe">
++                                  <div class="t-label">Severe</div>
++                                  <div class="t-cell box-severe">2<span>Severe</span></div>
++                                  <div class="t-cell box-severe">3<span>Severe</span></div>
++                                  <div class="t-cell box-severe">5<span>Severe</span></div>
++                                  <div class="t-cell box-severe">8<span>Severe</span></div>
+                               </div>
+-                              <div class="matrix-row matrix-moderate">
+-                                  <div class="m-label">Moderate</div>
+-                                  <div>2<br><span>Moderate</span></div>
+-                                  <div>2<br><span>Moderate</span></div>
+-                                  <div>3<br><span>Moderate</span></div>
+-                                  <div>2<br><span>Moderate</span></div>
++                              <div class="t-row box-moderate">
++                                  <div class="t-label">Moderate</div>
++                                  <div class="t-cell box-moderate">2<span>Moderate</span></div>
++                                  <div class="t-cell box-moderate">2<span>Moderate</span></div>
++                                  <div class="t-cell box-moderate">3<span>Moderate</span></div>
++                                  <div class="t-cell box-moderate">2<span>Moderate</span></div>
+                               </div>
+-                              <div class="matrix-row matrix-watch">
+-                                  <div class="m-label">Watch</div>
+-                                  <div>0<br><span>Watch</span></div>
+-                                  <div>0<br><span>Watch</span></div>
+-                                  <div>8<br><span>Watch</span></div>
+-                                  <div>0<br><span>Watch</span></div>
++                              <div class="t-row box-watch">
++                                  <div class="t-label">Watch</div>
++                                  <div class="t-cell box-watch">0<span>Watch</span></div>
++                                  <div class="t-cell box-watch">0<span>Watch</span></div>
++                                  <div class="t-cell box-watch">8<span>Watch</span></div>
++                                  <div class="t-cell box-watch">0<span>Watch</span></div>
+                               </div>
+                           </div>
+                       </div>
+ 
+                       <!-- Resource Allocation & Demand -->
+-                      <div class="panel card resource-panel dm-only">
++                      <div class="panel card resource-panel">
+                           <div class="card-header" style="justify-content:space-between">
+                               <h3 style="letter-spacing:1px; color:#ffffff;">RESOURCE ALLOCATION & DEMAND</h3>
+                               <svg class="more-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+@@ -314,15 +311,19 @@
+                                 <div>Med Kit Supply</div>
+                                 <div>Shelter Availability</div>
+                           </div>
+-                          <div class="dm-bars-lines" style="display:flex; justify-content:space-between; margin-bottom:24px;">
+-                                <div style="display:flex; align-items:center; gap:8px;">
+-                                    <div style="width:40px; height:2px; background:#3b82f6;"></div>
+-                                    <div style="width:8px; height:8px; border-radius:50%; background:#3b82f6; border:2px solid #0f172a;"></div>
++                          <div class="dm-bars-lines" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:32px;">
++                                <div style="flex:1; display:flex; align-items:center;">
++                                    <div style="width:100%; height:4px; background:#1e293b; border-radius:2px; position:relative; margin-right: 16px;">
++                                        <div style="position:absolute; left:0; top:0; height:100%; width:70%; background:#3b82f6; border-radius:2px;"></div>
++                                        <div style="position:absolute; left:70%; top:50%; transform:translate(-50%, -50%); width:12px; height:12px; border-radius:50%; background:#0f172a; border:3px solid #3b82f6; filter:drop-shadow(0 0 4px rgba(59,130,246,0.6));"></div>
++                                    </div>
+                                 </div>
+-                                <div style="font-size:12px; color:#64748b; font-weight:600;">VS</div>
+-                                <div style="display:flex; align-items:center; gap:8px;">
+-                                    <div style="width:40px; height:2px; background:#06b6d4;"></div>
+-                                    <div style="width:8px; height:8px; border-radius:50%; background:#06b6d4; border:2px solid #0f172a;"></div>
++                                <div style="font-size:12px; color:#64748b; font-weight:600; padding:0 8px;">VS</div>
++                                <div style="flex:1; display:flex; align-items:center;">
++                                    <div style="width:100%; height:4px; background:#1e293b; border-radius:2px; position:relative; margin-left:16px;">
++                                        <div style="position:absolute; left:0; top:0; height:100%; width:49%; background:#06b6d4; border-radius:2px;"></div>
++                                        <div style="position:absolute; left:49%; top:50%; transform:translate(-50%, -50%); width:12px; height:12px; border-radius:50%; background:#0f172a; border:3px solid #06b6d4; filter:drop-shadow(0 0 4px rgba(6,182,212,0.6));"></div>
++                                    </div>
+                                 </div>
+                           </div>
+ 
+@@ -347,19 +348,31 @@
+                               <span>40</span><span>120</span><span>75</span><span>65</span><span>49</span><span>128</span><span>3</span>
+                           </div>
+ 
+-                          <div class="dm-bottom-stats-box">
++                          <div class="dm-bottom-stats-box" style="display:grid; grid-template-columns:1fr 1fr; gap:16px; background:#0b1120; border-radius:8px; border:1px solid #1e293b; padding:16px; margin-top: 16px;">
+                               <div class="db-col">
+-                                  <div class="db-col-title">Resources</div>
+-                                  <div class="db-grid">
+-                                      <div class="db-item"><div class="dot green-dot" style="width:6px;height:6px;border-radius:50%;"></div><div class="db-item-text">Med Kit<div class="db-item-pct">(71%)</div></div></div>
+-                                      <div class="db-item"><div class="dot cyan-dot" style="width:6px;height:6px;border-radius:50%;"></div><div class="db-item-text">Shelter<div class="db-item-pct">(49%)</div></div></div>
++                                  <div class="db-col-title" style="color:white; font-size:12px; font-weight:600; margin-bottom:12px;">Resources</div>
++                                  <div class="db-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
++                                      <div class="db-item" style="display:flex; align-items:flex-start; gap:8px;">
++                                          <div class="dot green-dot" style="width:6px;height:6px;border-radius:50%;background:#10b981;margin-top:4px;"></div>
++                                          <div class="db-item-text" style="color:#cbd5e1; font-size:11px; line-height: 1.3">Med<br>Kit<br><span style="color:#64748b;">(71%)</span></div>
++                                      </div>
++                                      <div class="db-item" style="display:flex; align-items:flex-start; gap:8px;">
++                                          <div class="dot cyan-dot" style="width:6px;height:6px;border-radius:50%;background:#06b6d4;margin-top:4px;"></div>
++                                          <div class="db-item-text" style="color:#cbd5e1; font-size:11px; line-height: 1.3">Shelter<br><span style="color:#64748b;">(49%)</span></div>
++                                      </div>
+                                   </div>
+                               </div>
+                               <div class="db-col">
+-                                  <div class="db-col-title">SOS Requests</div>
+-                                  <div class="db-grid">
+-                                      <div class="db-item"><div class="dot orange-dot" style="width:6px;height:6px;border-radius:50%;"></div><div class="db-item-text">Active<div class="db-item-pct">(5)</div></div></div>
+-                                      <div class="db-item"><div class="dot yellow-dot" style="width:6px;height:6px;border-radius:50%;"></div><div class="db-item-text">Pending<div class="db-item-pct">(1)</div></div></div>
++                                  <div class="db-col-title" style="color:white; font-size:12px; font-weight:600; margin-bottom:12px;">SOS Requests</div>
++                                  <div class="db-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
++                                      <div class="db-item" style="display:flex; align-items:flex-start; gap:8px;">
++                                          <div class="dot orange-dot" style="width:6px;height:6px;border-radius:50%;background:#f59e0b;margin-top:4px;"></div>
++                                          <div class="db-item-text" style="color:#cbd5e1; font-size:11px; line-height: 1.3">Active<br><span style="color:#64748b;">(5)</span></div>
++                                      </div>
++                                      <div class="db-item" style="display:flex; align-items:flex-start; gap:8px;">
++                                          <div class="dot yellow-dot" style="width:6px;height:6px;border-radius:50%;background:#eab308;margin-top:4px;"></div>
++                                          <div class="db-item-text" style="color:#cbd5e1; font-size:11px; line-height: 1.3">Pending<br><span style="color:#64748b;">(1)</span></div>
++                                      </div>
+                                   </div>
+                               </div>
+                           </div>
+@@ -367,7 +380,7 @@
+ 
+ 
+ 
+-<div class="panel card quick-dm dm-only">
++<div class="panel card quick-dm">
+                          <div class="card-header" style="justify-content:space-between; margin-bottom: 12px; border-bottom: none;">
+                             <h3 style="letter-spacing:1px; color:#ffffff;">QUICK ACTIONS</h3>
+                             <div class="drpdwn" style="color:#64748b; font-size:11px; display:flex; align-items:center;">My Saved Locations <svg viewBox="0 0 24 24" fill="none" class="dropdown-icon" stroke="currentColor" stroke-width="2" width="12" height="12" style="margin-left:4px;"><polyline points="6 9 12 15 18 9"/></svg></div>
+@@ -389,7 +402,7 @@
+         
+         <!-- Global Footer -->
+         <footer class="app-footer-text">
+-            © 2026 SaveIndia Disaster Intelligence System
++            About SAVEINDIA &nbsp;|&nbsp; Contact Support &nbsp;|&nbsp; Privacy Policy &nbsp;|&nbsp; Terms of Service &nbsp;|&nbsp; © 2026 SAVEINDIA. All rights reserved.
+         </footer>
+     </div>
+ 

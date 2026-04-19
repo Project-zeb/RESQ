@@ -1,0 +1,263 @@
+version: '3.9'
+
+services:
+  # ========================================================================
+  # DRAGONFLY: Drop-in Redis replacement with 25x performance improvement
+  # ========================================================================
+  # Multi-threaded, high-performance data store for channel layers
+  # Maintains 100% API compatibility with Redis
+  # More info: https://www.dragonflydb.io/
+  dragonfly:
+    image: docker.dragonflydb.io/dragonflydb/dragonfly:latest
+    container_name: projectz-dragonfly
+    command:
+      - "--bind"
+      - "0.0.0.0"
+      - "--port"
+      - "6379"
+      - "--requirepass"
+      - "${DRAGONFLY_PASSWORD:-dragonfly_dev_password}"  # Change in production!
+      - "--maxmemory"
+      - "4gb"
+    ports:
+      - "6379:6379"
+    volumes:
+      - dragonfly-data:/data
+    environment:
+      TZ: UTC
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${DRAGONFLY_PASSWORD:-dragonfly_dev_password}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - projectz-network
+    restart: unless-stopped
+
+  # ========================================================================
+  # WSGI SERVER: HTTP requests (traditional sync views)
+  # ========================================================================
+  # Gunicorn handles CPU-bound operations and traditional Django views
+  # Runs with multiple workers for concurrent request handling
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: projectz-web
+    command: >
+      gunicorn
+      --workers=4
+      --worker-class=sync
+      --bind=0.0.0.0:8000
+      --timeout=30
+      --access-logfile=-
+      --error-logfile=-
+      projectz.wsgi:application
+    ports:
+      - "8000:8000"
+    environment:
+      # Database configuration
+      DEBUG: ${DEBUG:-0}
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-production}
+      DJANGO_SETTINGS_MODULE: projectz.settings
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      
+      # Database
+      PRIMARY_DB: ${PRIMARY_DB:-sqlite}
+      DB_HOST: ${DB_HOST:-db}
+      DB_PORT: ${DB_PORT:-3306}
+      DB_NAME: ${DB_NAME:-projectz}
+      DB_USER: ${DB_USER:-projectz_user}
+      DB_PASSWORD: ${DB_PASSWORD:-projectz_password}
+      
+      # Dragonfly
+      DRAGONFLY_HOST: dragonfly
+      DRAGONFLY_PASSWORD: ${DRAGONFLY_PASSWORD:-dragonfly_dev_password}
+      
+      # App settings
+      TZ: UTC
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - ./:/app
+      - logs:/app/logs
+    depends_on:
+      dragonfly:
+        condition: service_healthy
+      # Optionally depend on database if using MySQL/PostgreSQL
+      # db:
+      #   condition: service_healthy
+    networks:
+      - projectz-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ========================================================================
+  # ASGI SERVER: WebSocket connections (async consumers)
+  # ========================================================================
+  # Uvicorn with uvloop handles high-concurrency WebSocket connections
+  # Separate from WSGI for better resource isolation
+  # Supports thousands of concurrent connections
+  asgi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: projectz-asgi
+    command: >
+      uvicorn
+      --host=0.0.0.0
+      --port=9000
+      --workers=4
+      --loop=uvloop
+      --log-level=info
+      --access-log
+      projectz.asgi:application
+    ports:
+      - "9000:9000"
+    environment:
+      # Database configuration
+      DEBUG: ${DEBUG:-0}
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-production}
+      DJANGO_SETTINGS_MODULE: projectz.settings
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      
+      # Database
+      PRIMARY_DB: ${PRIMARY_DB:-sqlite}
+      DB_HOST: ${DB_HOST:-db}
+      DB_PORT: ${DB_PORT:-3306}
+      DB_NAME: ${DB_NAME:-projectz}
+      DB_USER: ${DB_USER:-projectz_user}
+      DB_PASSWORD: ${DB_PASSWORD:-projectz_password}
+      
+      # Dragonfly
+      DRAGONFLY_HOST: dragonfly
+      DRAGONFLY_PASSWORD: ${DRAGONFLY_PASSWORD:-dragonfly_dev_password}
+      
+      # ASGI server config
+      ASGI_HOST: 0.0.0.0
+      ASGI_PORT: 9000
+      ASGI_WORKERS: 4
+      ASGI_LOOP: uvloop
+      
+      # App settings
+      TZ: UTC
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - ./:/app
+      - logs:/app/logs
+    depends_on:
+      dragonfly:
+        condition: service_healthy
+    networks:
+      - projectz-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ========================================================================
+  # NGINX: Reverse proxy and load balancer
+  # ========================================================================
+  # Routes HTTP to WSGI server, WebSocket to ASGI server
+  # Handles SSL/TLS termination in production
+  # Provides static file serving and caching
+  nginx:
+    image: nginx:alpine
+    container_name: projectz-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d/:/etc/nginx/conf.d/:ro
+      - ./static/:/app/static:ro
+      - ./logs/nginx/:/var/log/nginx/:rw
+    depends_on:
+      - web
+      - asgi
+    networks:
+      - projectz-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ========================================================================
+  # OPTIONAL: MySQL/PostgreSQL Database
+  # ========================================================================
+  # Uncomment and configure if using MySQL instead of SQLite
+  # db:
+  #   image: mysql:8.0
+  #   container_name: projectz-db
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root}
+  #     MYSQL_DATABASE: ${DB_NAME:-projectz}
+  #     MYSQL_USER: ${DB_USER:-projectz_user}
+  #     MYSQL_PASSWORD: ${DB_PASSWORD:-projectz_password}
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - db-data:/var/lib/mysql
+  #   networks:
+  #     - projectz-network
+  #   healthcheck:
+  #     test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+  #   restart: unless-stopped
+
+networks:
+  projectz-network:
+    driver: bridge
+
+volumes:
+  dragonfly-data:
+  logs:
+  # db-data:  # Uncomment if using database
+
+# ============================================================================
+# QUICK START
+# ============================================================================
+# Build and start services:
+#   docker-compose up --build
+#
+# View logs:
+#   docker-compose logs -f [service_name]
+#
+# Stop services:
+#   docker-compose down
+#
+# Run migrations:
+#   docker-compose exec web python manage.py migrate
+#
+# Create superuser:
+#   docker-compose exec web python manage.py createsuperuser
+#
+# ============================================================================
+# ARCHITECTURE
+# ============================================================================
+# Client Browser
+#     |
+#     v
+# Nginx (Reverse Proxy)
+#     |
+#     +---> /                    -> Web (Gunicorn WSGI) :8000
+#     |     /api/                -> Web (Gunicorn WSGI) :8000
+#     |     /admin/              -> Web (Gunicorn WSGI) :8000
+#     |
+#     +---> /ws/realtime/        -> ASGI (Uvicorn)      :9000
+#           /ws/notifications/   -> ASGI (Uvicorn)      :9000
+#
+# All services communicate through Dragonfly for channel layers
+# ============================================================================

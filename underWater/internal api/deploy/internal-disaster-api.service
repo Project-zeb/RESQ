@@ -1,0 +1,17 @@
+[Unit]
+Description=Internal Disaster API (Django + scheduler)
+After=network.target
+
+[Service]
+Type=simple
+User=__SERVICE_USER__
+Group=__SERVICE_GROUP__
+WorkingDirectory=__WORKING_DIRECTORY__
+EnvironmentFile=__ENV_FILE__
+ExecStart=__VENV_PYTHON__ -m gunicorn -w 1 -b 127.0.0.1:5100 internal_api.wsgi:application
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

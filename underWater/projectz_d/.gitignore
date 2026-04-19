@@ -1,0 +1,193 @@
+# Django specific
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Secret/Sensitive files
+.env
+.env.local
+.env.*.local
+secrets.json
+*.key
+*.pem
+*.crt
+private_key.txt
+aws_credentials.json
+gcp_credentials.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+*.sql
+mysql_dump.sql
+postgres_dump.sql
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+log/
+*.pot
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.hypothesis
+
+# Documentation
+site/
+docs/_build/
+
+# Docker
+docker-compose.override.yml
+Dockerfile.dev
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+._*
+
+# Backup files
+*.bak
+*.backup
+*~
+*.old
+*.swp
+
+# Temp directories
+tmp/
+temp/
+__pycache__/
+.pytest_pycache__/
+
+# Package files
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Node (if using frontend build)
+node_modules/
+npm-debug.log
+.npm
+
+# IDE temp
+.vscode/settings.json
+.idea/workspace.xml
+*.iml
+
+# Project specific
+media/
+static/
+staticfiles/
+collected_static/
+uploads/
+uploads_temp/
+
+# Email tokens (if using)
+email_tokens/
+
+# Cache
+.cache
+*.cache
+
+# Lock files (optional - comment out if you want to commit)
+# poetry.lock
+# Pipfile.lock
+
+# Environment
+.env
+.env.prod
+.env.dev
+.env.test
+
+# SSL certificates
+*.crt
+*.key
+*.pem
+certs/
+
+# Database backups
+backups/
+db_backups/
+
+# Sensitive data
+ngos_contacts.json
+private_data.json
+api_keys.json
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Temporary files
+.~*
+*.tmp
+*.temp
+
+# Skip migrations - keep your own!
+# (Uncomment if you want to share migration-free repo)
+# */migrations/
+
+# Exclude only sensitive migrations (keep initial/numbered ones)
+# core/migrations/secrets.py
+
+# API documentation
+swagger_dist/
+redoc_dist/
+
+# Profiling
+*.prof
+*.pstats

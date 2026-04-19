@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All India: CAP Disaster Alert Feeds</title>
+    <description>CAP Integrated Alert System Warning Updates</description>
+    <language>en</language>
+    <link>https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml</link>
+    <atom:link href="https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml" rel="self" type="application/rss+xml"/>
+    <copyright>public domain</copyright>
+    <pubDate>Fri, 13 Mar 2026 05:45:04 GMT</pubDate>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 3000 metres over Baramulla in next 24 hours. Stay Updated. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584505824011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776584505824011</guid>
+      <pubDate>Sun, 19 Apr 2026 07:49:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 2800 metres over Kupwara in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584511123011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776584511123011</guid>
+      <pubDate>Sun, 19 Apr 2026 07:47:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 2400 metres over Ganderbal in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584516358011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776584516358011</guid>
+      <pubDate>Sun, 19 Apr 2026 07:46:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 3200 metres over Gangtok, Pakyong in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584539896037</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776584539896037</guid>
+      <pubDate>Sun, 19 Apr 2026 07:42:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 3100 metres over Kargil in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584533076040</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776584533076040</guid>
+      <pubDate>Sun, 19 Apr 2026 07:42:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heat Wave is likely to occur at isolated places over Alwar, Bharatpur, Deeg, Dholpur, Jhunjhunu, Khairthal-Tijara, Kotputli-Behror in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776583854776028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1776583854776028</guid>
+      <pubDate>Sun, 19 Apr 2026 07:37:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorms with surface wind Speed Reaching 40-50 Kmph accompanied with Light to Moderate Rain  is very likely to occur at a few places over Khowai Districts in next 30 mints to 1  hour.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776584103663015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776584103663015</guid>
+      <pubDate>Sun, 19 Apr 2026 07:36:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning is likely to occur at isolated places over Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776583624727028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1776583624727028</guid>
+      <pubDate>Sun, 19 Apr 2026 07:34:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में जहानाबाद, मुजफ्फरपुर, वैशाली, सुपौल में कुछ स्थानों  पर बिजली चमकने/सतही हवा के झोंके (40-50 किमी प्रति घंटे) के साथ मध्यम गरज के साथ हल्की से मध्यम बारिश होने की संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1749186591697016</link>
+      <author>controlroom@ndma.gov.in (IMD Patna)</author>
+      <guid isPermaLink="false">1749186591697016</guid>
+      <pubDate>Sun, 19 Apr 2026 07:24:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Thunderstorms with lightning accompanied with light to Moderate rain and gusty wind speed reaching 40-50 kmph is very likely to continue/occur at a few places over Northern part of Dhalai, Unakoti in next 1-2 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776582669448015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776582669448015</guid>
+      <pubDate>Sun, 19 Apr 2026 07:14:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 24 घंटों में अलीराजपुर, छतरपुर, डिंडोरी, गुना, झाबुआ, मंडला, निवाड़ी, रतलाम, सतना, टीकमगढ़, उमरिया में अलग-अलग स्थानों पर लू चलने की संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776579360559021</link>
+      <author>controlroom@ndma.gov.in (IMD Bhopal)</author>
+      <guid isPermaLink="false">1776579360559021</guid>
+      <pubDate>Sun, 19 Apr 2026 06:24:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Thunderstorms and lightning accompanied with light to Moderate rain is very likely to occur at a few places over Dhalai, Khowai, Unakoti in next 30 minutes to 1 hour.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776579758706015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776579758706015</guid>
+      <pubDate>Sun, 19 Apr 2026 06:24:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm accompanied with Lightning and surface wind(40-50 kmph) is very likely to occur at isolated places over Bageshwar, Chamoli, Pithoragarh, Rudraprayag, and Uttarkashi in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776573990259009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1776573990259009</guid>
+      <pubDate>Sun, 19 Apr 2026 05:08:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Thunderstorms and ligtning accompanied with light to moderate rain is very likely to occur at isolated places over Northern part of North Tripura in next 30 minutes to 1 hour.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776573273536015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776573273536015</guid>
+      <pubDate>Sun, 19 Apr 2026 04:38:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासांत धाराशीव, नांदेड, परभणी, रत्नागिरी, सातारा, सोलापूर या जिल्ह्यांत हलक्या पावसाच्या सरींसह काही भागांमध्ये मेघगर्जना/विजांच्या कडकडाटासह पावसाची दाट शक्यता आहे. मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776563196259029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776563196259029</guid>
+      <pubDate>Sun, 19 Apr 2026 01:50:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorm with Lightning with gusty wind and light to moderate rain which is very likely to occur at a few places over Cachar, Hailakandi and Sribhumi in next 1-3 hours.Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776563023081010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1776563023081010</guid>
+      <pubDate>Sun, 19 Apr 2026 01:48:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासांत आपल्या जिल्ह्यात विजांच्या कडकडाटासह हलक्या पावसाच्या सरी किंवा मेघगर्जनेसह वादळी पावसाची आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्याची दाट शक्यता आहे.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776553336805029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776553336805029</guid>
+      <pubDate>Sun, 19 Apr 2026 01:17:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासांत अहिल्यानगर, रत्नागिरीच्या काही भागांमध्ये मेघगर्जना/विजांच्या कडकडाटासह हलक्या पावसाच्या सरींची शक्यता आहे. नागरिकांनी सतर्क राहावे. मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776553350057029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776553350057029</guid>
+      <pubDate>Sun, 19 Apr 2026 01:12:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm with Lightning and Gusty wind speed reaching 40-50 Kmph accompanied by Light to moderate Rain is very likely to occur/continue at a few places over Unakoti and northern part of North ,  Dhalai   districts fornext 1-2 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776556260945015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776556260945015</guid>
+      <pubDate>Sat, 18 Apr 2026 23:53:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm with Lightning and Gusty wind speed reaching 40-50 Kmph accompanied by Light to moderate Rain is very likely to continue at a few places over Northern part of  Khowai and West Tripura districts for next 1-1.5 hours..</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776554332004015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776554332004015</guid>
+      <pubDate>Sat, 18 Apr 2026 23:21:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬೀದರ್, ಕಲಬುರಗಿಯ ಕೆಲವು ಸ್ಥಳಗಳಲ್ಲಿ ಗುಡುಗು ಸಹಿತ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆಯಿದೆ.(Source:IMD Bengaluru)</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776552106412019</link>
+      <author>controlroom@ndma.gov.in (IMD Bengaluru)</author>
+      <guid isPermaLink="false">1776552106412019</guid>
+      <pubDate>Sat, 18 Apr 2026 22:44:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning and  Light to moderate Rain is very likely to occur at a few places over  Dhalai, Khowai, West, Sipahijala,  districts in next 1 hour.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776551795989015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776551795989015</guid>
+      <pubDate>Sat, 18 Apr 2026 22:39:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light spells of rain and Thunderstorm accompanied with lightning with gusty winds reaching 30-40 kmph very likely over Kolhapur, Nashik, Sangli, Satara in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776547702631029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776547702631029</guid>
+      <pubDate>Sat, 18 Apr 2026 21:28:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorms with surface wind ( gusting upto 40-50 kmph ) accompanied with rain is very likely to occur at a few places over Godda, Pakur, Sahebganj in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776547258218027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776547258218027</guid>
+      <pubDate>Sat, 18 Apr 2026 21:21:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm with Lightning and Gusty wind speed reaching 40-50 Kmph accompanied by Light to moderate Rain is very likely to continue at a few places over Northern part of North and Unakoti  districts for next 1-1.5 hour.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776545611713015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776545611713015</guid>
+      <pubDate>Sat, 18 Apr 2026 20:56:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासांत धाराशीव, लातूर, सोलापूर परिसरात हलक्या पावसाच्या सरी, विजांचा कडकडाट आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह मेघगर्जनेची दाट शक्यता आहे. मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776540946419029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776540946419029</guid>
+      <pubDate>Sat, 18 Apr 2026 20:30:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm with Lightning and Gusty wind speed reaching 30-40 Kmph accompanied with Light to moderate Rain is very likely to occur at a few places over North Tripura, Unakoti, Dhalai, Khowai, West and Sipahijala districts in next 1-1.5 hours</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776540188433015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776540188433015</guid>
+      <pubDate>Sat, 18 Apr 2026 19:24:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬೆಳಗಾವಿ, ಬೀದರ್, ಕಲಬುರಗಿಯ ಒಂದು ಅಥವಾ ಎರಡು ಸ್ಥಳಗಳಲ್ಲಿ ಗುಡುಗು ಸಹಿತ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆಯಿದೆ.(Source:IMD Bengaluru)</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776538806953019</link>
+      <author>controlroom@ndma.gov.in (IMD Bengaluru)</author>
+      <guid isPermaLink="false">1776538806953019</guid>
+      <pubDate>Sat, 18 Apr 2026 19:03:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to continue over some parts of Alipurduar, Coochbehar, Jalpaiguri districts during next 2-3 hours from 00:05, 19-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776537228069017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776537228069017</guid>
+      <pubDate>Sat, 18 Apr 2026 18:35:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 50-60 kmph. very likely to affect over some parts of Birbhum, Murshidabad districts during next 2-3 hours from 23:35, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776535880929017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776535880929017</guid>
+      <pubDate>Sat, 18 Apr 2026 18:16:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 30-40 kmph. very likely to affect over some parts of Alipurduar, Coochbehar, Darjeeling, Jalpaiguri, Kalimpong districts during next 2-3 hours from 23:30, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776535386376017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776535386376017</guid>
+      <pubDate>Sat, 18 Apr 2026 18:04:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate to severe Thunderstorm  lightning accompanied with intense rain and gusty wind with speed 60-70 kmph. very likely to continue over some parts of Malda, South Dinajpur districts during next 2-3 hours from 22:45, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776534132023017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776534132023017</guid>
+      <pubDate>Sat, 18 Apr 2026 17:44:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासात जळगाव, नाशिक, सातारा, सोलापूर परिसरात तुरळक ठिकाणी हलक्या पावसाच्या सरींसह मेघगर्जना आणि विजांचा कडकडाट होण्याची दाट शक्यता आहे. तरी नागरिकांनी सतर्क राहावे. मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776533691634029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776533691634029</guid>
+      <pubDate>Sat, 18 Apr 2026 17:38:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासांत धाराशीव, लातूर परिसरात हलक्या पावसाच्या सरी, विजांच्या कडकडाटासह मेघगर्जना आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यांची दाट शक्यता आहे. नागरिकांनी सतर्क राहावे.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776533684412029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776533684412029</guid>
+      <pubDate>Sat, 18 Apr 2026 17:38:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Malda district during next 2-3 hours from 22:30, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776531832486017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776531832486017</guid>
+      <pubDate>Sat, 18 Apr 2026 17:07:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में भागलपुर, कटिहार और पूर्णिया के कुछ स्थानों पर गरज-बिजली  के साथ बारिश होने की प्रबल संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776530265049016</link>
+      <author>controlroom@ndma.gov.in (IMD Patna)</author>
+      <guid isPermaLink="false">1776530265049016</guid>
+      <pubDate>Sat, 18 Apr 2026 16:47:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776529542477008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776529542477008</guid>
+      <pubDate>Sat, 18 Apr 2026 16:26:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776528787066008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776528787066008</guid>
+      <pubDate>Sat, 18 Apr 2026 16:14:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm with surface wind and rain is likely to occur at isolated places over Balod, Bastar, Bijapur, Dantewada, Dhamtari, Gariyaband, Kanker, Kondagaon, Narayanpur, Sukma in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776528279579018</link>
+      <author>controlroom@ndma.gov.in (IMD Raipur)</author>
+      <guid isPermaLink="false">1776528279579018</guid>
+      <pubDate>Sat, 18 Apr 2026 16:04:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में दरभंगा, सहरसा और समस्तीपुर के कुछ अलग-अलग स्थानों पर बिजली कड़कने के साथ आंधी आने की संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776525198589016</link>
+      <author>controlroom@ndma.gov.in (IMD Patna)</author>
+      <guid isPermaLink="false">1776525198589016</guid>
+      <pubDate>Sat, 18 Apr 2026 15:30:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬೆಳಗಾವಿ, ಬೀದರ್, ಕಲಬುರಗಿ, ವಿಜಯಪುರದ ಒಂದು ಅಥವಾ ಎರಡು ಸ್ಥಳಗಳಲ್ಲಿ ಗುಡುಗು ಸಹಿತ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆಯಿದೆ.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776526089067019</link>
+      <author>controlroom@ndma.gov.in (IMD Bengaluru)</author>
+      <guid isPermaLink="false">1776526089067019</guid>
+      <pubDate>Sat, 18 Apr 2026 15:29:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of North Dinajpur, South Dinajpur, Coochbehar districts during next 2-3 hours from 20:40, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776525438773017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776525438773017</guid>
+      <pubDate>Sat, 18 Apr 2026 15:18:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hailstorm/thunderstorm with lightning accompanied with gusty wind and light to moderate rain/snow at higher altitude very likely to continue over some parts of Gangtok, Gyalshing, Mangan, Namchi, Pakyong and Soreng districts during next 2-3 hours from 19:00 hrs IST of today, 18-04-2026. Advisory by SSDMA</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776519230645037</link>
+      <author>controlroom@ndma.gov.in (IMD Gangtok)</author>
+      <guid isPermaLink="false">1776519230645037</guid>
+      <pubDate>Sat, 18 Apr 2026 15:02:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में मधेपुरा के कुछ स्थानों पर बिजली कड़कने के साथ बारिश होने की प्रबल संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776523387035016</link>
+      <author>controlroom@ndma.gov.in (IMD Patna)</author>
+      <guid isPermaLink="false">1776523387035016</guid>
+      <pubDate>Sat, 18 Apr 2026 14:53:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में अररिया, कटिहार, किशनगंज, मधुबनी, पूर्णिया और सुपौल के कुछ स्थानों पर सतह की हवाओं के साथ मध्यम दर्जे के गरज-चमक के साथ वर्षा आने की प्रबल संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776520672219016</link>
+      <author>controlroom@ndma.gov.in (IMD Patna)</author>
+      <guid isPermaLink="false">1776520672219016</guid>
+      <pubDate>Sat, 18 Apr 2026 14:38:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಧಾರವಾಡದ ಪ್ರತ್ಯೇಕ ಸ್ಥಳಗಳಲ್ಲಿ ಮೇಲ್ಮೈ ಗಾಳಿಯೊಂದಿಗೆ ಲಘು ಗುಡುಗು ಸಹಿತ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆ ಇದೆ. IMD BNG</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776521418003019</link>
+      <author>controlroom@ndma.gov.in (IMD Bengaluru)</author>
+      <guid isPermaLink="false">1776521418003019</guid>
+      <pubDate>Sat, 18 Apr 2026 14:12:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intense Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 50-60 kmph. very likely to affect over some parts of Murshidabad, Nadia districts during next 2-3 hours from 19:20, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776520254063017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776520254063017</guid>
+      <pubDate>Sat, 18 Apr 2026 13:53:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासात धाराशीव,लातूर,सांगली,सातारा,सोलापूर या जिल्ह्यात विजांच्या कडकडाटासह हलका ते मध्यम पाऊस आणि ताशी ३०-४० किमी वेगाने वारे वाहण्याची शक्यता आहे. नागरिकांनी सतर्क राहावे. मंत्रालय.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776519610536029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776519610536029</guid>
+      <pubDate>Sat, 18 Apr 2026 13:51:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorm with Lightning and light to moderate rain which is likely to occur at many places over Barpeta, Bongaigaon, Dhubri, Goalpara, Kamrup, Kamrup Metropolitan, Kokrajhar and Nalbari in next 3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776518859345010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1776518859345010</guid>
+      <pubDate>Sat, 18 Apr 2026 13:32:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में पूर्वी सिंहभूम, खूंटी, सरायकेला, खरसावां और पश्चिमी सिंहभूम के कुछ अलग-अलग स्थानों पर हल्की गरज और बिजली के साथ 30-40 किमी प्रति घंटे की रफ्तार से सतही हवा चलने की संभावना है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776515031385027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776515031385027</guid>
+      <pubDate>Sat, 18 Apr 2026 13:10:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of North Dinajpur district during next 2-3 hours from 18:34, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776517718961017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776517718961017</guid>
+      <pubDate>Sat, 18 Apr 2026 13:09:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में आपके क्षेत्र में मध्यम गरज और बिजली गिरने के साथ सतही हवा (30-40 किमी प्रति घंटा) चलने की संभावना है।सतर्क रहें।आपदा प्रबंधन विभाग झारखंड राँची।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776514851981027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776514851981027</guid>
+      <pubDate>Sat, 18 Apr 2026 13:07:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm with surface wind and rain is likely to occur at isolated places over Balodabazar, Bastar, Bemetara, Bilaspur, Dantewada, Dhamtari, Gariyaband, Janjgir-Champa, Kabeerdham, Kanker, Kondagaon, Mungeli, Narayanpur, Raipur, Sukma in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776517569422018</link>
+      <author>controlroom@ndma.gov.in (IMD Raipur)</author>
+      <guid isPermaLink="false">1776517569422018</guid>
+      <pubDate>Sat, 18 Apr 2026 13:06:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776516714693008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776516714693008</guid>
+      <pubDate>Sat, 18 Apr 2026 12:53:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorms with Lightning and light to moderate rain which is very likely to occur at a few places over Biswanath, Golaghat, Karbi Anglong in next 3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776515499589010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1776515499589010</guid>
+      <pubDate>Sat, 18 Apr 2026 12:41:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hailstorm/thunderstorm with lightning accompanied with gusty wind and light to moderate rain/snow at higher altitude very likely to affect over some parts of Gangtok, Gyalshing, Mangan, Namchi, Pakyong and Soreng districts during next 2-3 hours from 16:20 hrs IST of today, 18-04-2026. Advisory by SSDMA</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776509517018037</link>
+      <author>controlroom@ndma.gov.in (IMD Gangtok)</author>
+      <guid isPermaLink="false">1776509517018037</guid>
+      <pubDate>Sat, 18 Apr 2026 12:29:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm and Lightning with surface wind (30-40 kmph) is likely to occur at isolated places over Deoghar, Dumka, East Singhbum, Godda, Khunti, Sahebganj, Saraikela Kharsawan, West Singhbhum in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776514735068027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776514735068027</guid>
+      <pubDate>Sat, 18 Apr 2026 12:19:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm and Lightning with surface wind (30-40 kmph) is likely to occur at isolated places over Deoghar, Dumka, East Singhbum, Godda, Khunti, Sahebganj, Saraikela Kharsawan, West Singhbhum in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776514193787027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776514193787027</guid>
+      <pubDate>Sat, 18 Apr 2026 12:10:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>రేపు మీ ప్రాంతంలో ఎండతీవ్రతతో పాటు వడగాల్పులు వీచే అవకాశం ఉంది.తలకి టోపి పెట్టుకోవాలి రూమాలు కట్టుకోవాలి.ఎక్కువగా మంచి నీరు,మజ్జిగ,,కొబ్బరినీరు త్రాగవలెను-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776513894586008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776513894586008</guid>
+      <pubDate>Sat, 18 Apr 2026 12:06:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Birbhum, Malda, Murshidabad districts during next 2-3 hours from 17:30, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776513811489017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776513811489017</guid>
+      <pubDate>Sat, 18 Apr 2026 12:04:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776513668278008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776513668278008</guid>
+      <pubDate>Sat, 18 Apr 2026 12:02:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटों में देवघर, दुमका, पूर्वी सिंहभूम, गोड्डा, खूंटी, साहिबगंज, सरायकेला, खरसावां और पश्चिमी सिंहभूम में  बिजली गिरने के साथ सतही हवा चलने की संभावना है।आपदा प्रबंधन विभाग रांची झारखंड</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776512856357027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776512856357027</guid>
+      <pubDate>Sat, 18 Apr 2026 11:56:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776333806452030</link>
+      <author>controlroom@ndma.gov.in (FSI)</author>
+      <guid isPermaLink="false">1776333806452030</guid>
+      <pubDate>Sat, 18 Apr 2026 11:51:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Alipurduar, Coochbehar, Darjeeling, Kalimpong, Jalpaiguri districts during next 2-3 hours from 17:00, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776512164311017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776512164311017</guid>
+      <pubDate>Sat, 18 Apr 2026 11:37:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>सिमडेगा में अगले 3 घंटों में कुछ स्थानों पर मध्यम गरज के साथ तेज हवाएं (40-50 किमी प्रति घंटे तक की रफ्तार से) चलने और बारिश होने की बहुत संभावना है।सतर्क रहें।आपदा प्रबंधन विभाग झारखंड राँची।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776506923096027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1776506923096027</guid>
+      <pubDate>Sat, 18 Apr 2026 11:32:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thundering with Lightning, Gusty winds(30-40 Kmph) is very likely to occur  at isolated places over Bhadradri Kothagudem, Jayashankar Bhupalapally, Kamareddy, Medak, Mulugu, Sangareddy, Vikarabad in next 24 hours - By Telangana Integrated Command and Control Centre.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776504985785030</link>
+      <author>controlroom@ndma.gov.in (IMD Hyderabad)</author>
+      <guid isPermaLink="false">1776504985785030</guid>
+      <pubDate>Sat, 18 Apr 2026 11:22:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776511296528008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776511296528008</guid>
+      <pubDate>Sat, 18 Apr 2026 11:22:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776509986024012</link>
+      <author>controlroom@ndma.gov.in (IMD Bhubaneswar)</author>
+      <guid isPermaLink="false">1776509986024012</guid>
+      <pubDate>Sat, 18 Apr 2026 11:08:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776505853101012</link>
+      <author>controlroom@ndma.gov.in (IMD Bhubaneswar)</author>
+      <guid isPermaLink="false">1776505853101012</guid>
+      <pubDate>Sat, 18 Apr 2026 11:06:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776509054903008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776509054903008</guid>
+      <pubDate>Sat, 18 Apr 2026 10:45:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासात हलक्या पावसाच्या सरी, विजांच्या कडकडाटासह मेघगर्जना आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यांची दाट शक्यता आहे. नागरिकांनी सतर्क राहावे, मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776508693141029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776508693141029</guid>
+      <pubDate>Sat, 18 Apr 2026 10:44:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 30-40 kmph. likely to affect over some parts of Jalpaiguri, Alipurduar, Coochbehar districts during next 2-3 hours from 16:15, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776508854358017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776508854358017</guid>
+      <pubDate>Sat, 18 Apr 2026 10:42:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬಾಗಲಕೋಟೆ, ಬೆಳಗಾವಿ, ಬೀದರ್, ದಾವಣಗೆರೆಯಲ್ಲಿ ಒಂದು ಅಥವಾ ಎರಡು ಸ್ಥಳಗಳಲ್ಲಿ ಮೇಲ್ಮೈ ಗಾಳಿಯೊಂದಿಗೆ ಲಘು ಗುಡುಗು ಸಹಿತ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆ ಇದೆ. IMD BNG</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776508737235019</link>
+      <author>controlroom@ndma.gov.in (IMD Bengaluru)</author>
+      <guid isPermaLink="false">1776508737235019</guid>
+      <pubDate>Sat, 18 Apr 2026 10:42:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776508673424008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776508673424008</guid>
+      <pubDate>Sat, 18 Apr 2026 10:38:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776508107781008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776508107781008</guid>
+      <pubDate>Sat, 18 Apr 2026 10:29:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm with surface wind and rain is likely to occur at isolated places over Bastar, Dantewada, Dhamtari, Gariyaband, Kanker, Kondagaon, Narayanpur, Sukma in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776507736715018</link>
+      <author>controlroom@ndma.gov.in (IMD Raipur)</author>
+      <guid isPermaLink="false">1776507736715018</guid>
+      <pubDate>Sat, 18 Apr 2026 10:22:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776507307738008</link>
+      <author>controlroom@ndma.gov.in (IMD Visakhapatnam)</author>
+      <guid isPermaLink="false">1776507307738008</guid>
+      <pubDate>Sat, 18 Apr 2026 10:21:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776503843859012</link>
+      <author>controlroom@ndma.gov.in (IMD Bhubaneswar)</author>
+      <guid isPermaLink="false">1776503843859012</guid>
+      <pubDate>Sat, 18 Apr 2026 09:46:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776505233944008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776505233944008</guid>
+      <pubDate>Sat, 18 Apr 2026 09:41:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorms with lightning and light to moderate rainfall very likely to affect over some parts of Namchi and Soreng districts during next 2-3 hours from 14:45 hrs IST of today, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776504024185037</link>
+      <author>controlroom@ndma.gov.in (IMD Gangtok)</author>
+      <guid isPermaLink="false">1776504024185037</guid>
+      <pubDate>Sat, 18 Apr 2026 09:41:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>There is a possibility of lightning in your area. During thunderstorms, avoid trees, towers, poles, fields, and open spaces. Seek shelter in safe buildings - Andhra Pradesh Government.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776504013739008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776504013739008</guid>
+      <pubDate>Sat, 18 Apr 2026 09:28:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776504215092008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776504215092008</guid>
+      <pubDate>Sat, 18 Apr 2026 09:24:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorms and Rain with lightning and  surface wind speed reaching 40 to 50 KMPH  is very likely to occur at isolated places over West Tripura in next 30 min.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776503913165015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1776503913165015</guid>
+      <pubDate>Sat, 18 Apr 2026 09:20:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776502951026012</link>
+      <author>controlroom@ndma.gov.in (IMD Bhubaneswar)</author>
+      <guid isPermaLink="false">1776502951026012</guid>
+      <pubDate>Sat, 18 Apr 2026 09:13:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 30-40 kmph. likely to affect over some parts of Darjeeling, Kalimpong districts during next 2-3 hours from 14:35, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776503490088017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1776503490088017</guid>
+      <pubDate>Sat, 18 Apr 2026 09:12:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776502797873008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776502797873008</guid>
+      <pubDate>Sat, 18 Apr 2026 09:01:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>पुढील ३ तासात छत्रपती संभाजीनगर, जळगाव, जालना, नाशिक या जिल्ह्यांमध्ये काही ठिकाणी मेघगर्जना आणि विजांच्या कडकडाटासह हलका पाऊस पडण्याची दाट शक्यता आहे. नागरिकानी सतर्क राहावे. मंत्रालय, मुंबई.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776498027348029</link>
+      <author>controlroom@ndma.gov.in (IMD Mumbai)</author>
+      <guid isPermaLink="false">1776498027348029</guid>
+      <pubDate>Sat, 18 Apr 2026 09:00:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ମଧ୍ୟମ ଧରଣର ଘଡ଼ଘଡ଼ି, ବିଜୁଳି ଏବଂ ପୃଷ୍ଠ ପବନ ସହିତ ବର୍ଷା ହେବାର ସମ୍ଭାବନା ରହିଛି।। ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776500478801012</link>
+      <author>controlroom@ndma.gov.in (IMD Bhubaneswar)</author>
+      <guid isPermaLink="false">1776500478801012</guid>
+      <pubDate>Sat, 18 Apr 2026 08:57:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776501311155008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776501311155008</guid>
+      <pubDate>Sat, 18 Apr 2026 08:38:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776500693232008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776500693232008</guid>
+      <pubDate>Sat, 18 Apr 2026 08:26:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm and  lightning accompanied with gusty wind (30-40 kmph) and light to moderate rain/snow at higher altitude very likely to affect over some parts of Gangtok, Gyalshing, Mangan and Pakyong districts during next 2-3 hours from 13:20 hrs IST of today, 18-04-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776498865637037</link>
+      <author>controlroom@ndma.gov.in (IMD Gangtok)</author>
+      <guid isPermaLink="false">1776498865637037</guid>
+      <pubDate>Sat, 18 Apr 2026 08:24:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776500109539008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776500109539008</guid>
+      <pubDate>Sat, 18 Apr 2026 08:16:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776498372401008</link>
+      <author>controlroom@ndma.gov.in (IMD Visakhapatnam)</author>
+      <guid isPermaLink="false">1776498372401008</guid>
+      <pubDate>Sat, 18 Apr 2026 07:56:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 24 घंटों के दौरान अलवर, झुंझुनू, खैरथल-तिजारा और कोटपूतली-बहरोड़ के कुछ अलग-अलग स्थानों पर लू चलने की संभावना है। आपदा प्रबन्धन, सहायता एवं नागरिक सुरक्षा विभाग राजस्थान । सावधानी बरतें</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776498529109028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1776498529109028</guid>
+      <pubDate>Sat, 18 Apr 2026 07:52:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776498313766008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1776498313766008</guid>
+      <pubDate>Sat, 18 Apr 2026 07:46:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 3200 metres over Gangtok, Pakyong in next 24 hours. Issued by DGRE Chandigarh advisory by SSDMA</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776497516971037</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776497516971037</guid>
+      <pubDate>Sat, 18 Apr 2026 07:42:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 3000 metres over Baramulla in next 24 hours. Stay Updated. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776497495221011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776497495221011</guid>
+      <pubDate>Sat, 18 Apr 2026 07:42:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 2800 metres over Kupwara in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776497500523011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776497500523011</guid>
+      <pubDate>Sat, 18 Apr 2026 07:38:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with medium danger level is likely to occur above 2400 metres over Ganderbal in next 24 hours. Stay Alert. Stay Safe. JKUTDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1776497505706011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1776497505706011</guid>
+      <pubDate>Sat, 18 Apr 2026 07:35:56 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

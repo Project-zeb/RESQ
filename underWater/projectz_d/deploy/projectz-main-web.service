@@ -1,0 +1,17 @@
+[Unit]
+Description=ProjectZ Main Django Web App
+After=network.target
+
+[Service]
+Type=simple
+User=__SERVICE_USER__
+Group=__SERVICE_GROUP__
+WorkingDirectory=__WORKING_DIRECTORY__
+EnvironmentFile=__ENV_FILE__
+ExecStart=__VENV_PYTHON__ -m gunicorn -w 1 -b 0.0.0.0:8001 projectz.wsgi:application
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,21 @@
+{
+  "name": "resqfy-native-system-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Native wrapper for the full Resqfy Django system via USB tunnel",
+  "scripts": {
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "usb:devices": "adb devices",
+    "usb:reverse": "adb reverse tcp:2000 tcp:2000",
+    "usb:clear-reverse": "adb reverse --remove tcp:2000"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/core": "^7.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.2.0",
+    "typescript": "^5.6.3"
+  }
+}
