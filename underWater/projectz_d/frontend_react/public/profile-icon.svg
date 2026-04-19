@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Profile icon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f8cff" />
+      <stop offset="100%" stop-color="#2a5eff" />
+    </linearGradient>
+    <linearGradient id="shadow" x1="15%" y1="10%" x2="95%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="100%" stop-color="rgba(0,28,110,0.28)" />
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="116" fill="url(#bg)" />
+  <circle cx="128" cy="96" r="44" fill="#ffffff" />
+  <path d="M54 198c0-41.4 33.6-75 75-75s75 33.6 75 75v10H54v-10z" fill="#ffffff" />
+  <path d="M41 43c22-22.8 53.6-37 88.5-37C191.1 6 241 55.9 241 117.5c0 34.9-14.2 66.5-37 88.5L41 43z" fill="url(#shadow)" />
+</svg>

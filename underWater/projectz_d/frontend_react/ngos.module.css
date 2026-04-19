@@ -1,0 +1,285 @@
+.page {
+  min-height: 100vh;
+  padding: 18px 12px 28px;
+  background: linear-gradient(180deg, #d7e0ed, #cfd7e4);
+  display: flex;
+  justify-content: center;
+}
+
+.phoneShell {
+  width: min(430px, 100%);
+  border-radius: 34px;
+  border: 1px solid #c7d6ea;
+  background:
+    radial-gradient(circle at 14% 12%, rgba(108, 184, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 84% 18%, rgba(255, 122, 122, 0.13), transparent 34%),
+    #f0f4fb;
+  box-shadow: 0 14px 32px rgba(52, 77, 120, 0.14);
+  overflow: hidden;
+}
+
+.topNotch {
+  width: 126px;
+  height: 30px;
+  margin: 0 auto;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background: rgba(193, 203, 220, 0.62);
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  padding: 16px 14px 8px;
+}
+
+.primaryBtn,
+.ghostBtn {
+  border-radius: 12px;
+  min-height: 34px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 800;
+  border: 1px solid #bfd0e8;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: linear-gradient(180deg, #3f8df6, #2f71dd);
+  color: #f8fbff;
+}
+
+.ghostBtn {
+  background: #edf3fc;
+  color: #2f5ea7;
+}
+
+.locationText {
+  margin: 0;
+  padding: 0 14px 10px;
+  color: #5576a7;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.list {
+  padding: 0 14px 14px;
+  display: grid;
+  gap: 12px;
+  max-height: calc(100vh - 210px);
+  overflow: auto;
+}
+
+.card,
+.infoCard,
+.errorCard {
+  border-radius: 18px;
+  border: 1px solid #bfd5f0;
+  background: #eaf2fd;
+}
+
+.card {
+  padding: 14px 12px 12px;
+}
+
+.infoCard,
+.errorCard {
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.infoCard {
+  color: #2d4e80;
+}
+
+.errorCard {
+  color: #ab2d3d;
+  background: #feecef;
+  border-color: #f9c2cb;
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cardHead h3 {
+  margin: 0;
+  color: #234f87;
+  font-size: 31px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.badges {
+  margin-top: 6px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badgeBlue,
+.badgeAmber {
+  border-radius: 999px;
+  min-height: 22px;
+  padding: 0 9px;
+  font-size: 11px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badgeBlue {
+  border: 1px solid #9fc2f0;
+  color: #2b5faa;
+  background: #dfecff;
+}
+
+.badgeAmber {
+  border: 1px solid #efc789;
+  color: #996315;
+  background: #fff3dd;
+}
+
+.callIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #ccdaeb;
+  background: #f4f8ff;
+  color: #3a67ad;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.metrics {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #cad9ee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.metrics span {
+  display: block;
+  color: #6f88ab;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.metrics strong {
+  color: #294f82;
+  font-size: 29px;
+  line-height: 1.2;
+}
+
+.details {
+  margin-top: 8px;
+  display: grid;
+  gap: 3px;
+}
+
+.details p {
+  margin: 0;
+  color: #3f618f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.details a {
+  color: #2f64b2;
+  font-weight: 700;
+}
+
+.actions {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.callBtn,
+.routeBtn {
+  min-height: 36px;
+  border-radius: 12px;
+  border: 1px solid #bfd0e8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.callBtn {
+  color: #15764f;
+  background: #dff4e8;
+}
+
+.routeBtn {
+  color: #2f62ad;
+  background: #edf3fc;
+}
+
+.bottomBar {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #cfdaea;
+  background: rgba(248, 250, 255, 0.94);
+  padding: 10px 10px 12px;
+}
+
+.bottomItem {
+  border: none;
+  background: transparent;
+  color: #5a7fb2;
+  font-size: 27px;
+  font-weight: 700;
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.sos {
+  color: #fff4f4;
+  background: #ff6666;
+  width: 64px;
+  height: 64px;
+  margin: -24px auto 0;
+  box-shadow: 0 8px 18px rgba(239, 68, 68, 0.34);
+}
+
+@media (max-width: 460px) {
+  .page {
+    padding: 10px 6px 16px;
+  }
+
+  .phoneShell {
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .cardHead h3 {
+    font-size: 26px;
+  }
+
+  .metrics strong {
+    font-size: 23px;
+  }
+
+  .details p {
+    font-size: 20px;
+  }
+}
